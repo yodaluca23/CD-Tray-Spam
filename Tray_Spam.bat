@@ -8,6 +8,5 @@ echo colCDROMs.Item(i).Eject                    >> %temp%\temp.vbs
 echo next                                       >> %temp%\temp.vbs
 echo oWMP.close                                 >> %temp%\temp.vbs
 %temp%\temp.vbs
-timeout /t 1
 del %temp%\temp.vbs
 goto Task
